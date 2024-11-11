@@ -9,7 +9,7 @@ if(_distance <= detection_range){
 	move_towards_point(global.player_x, global.player_y, speed);
 	if(!hasShot){
 		hasShot = true;
-		alarm[0] = 60 * 5 * DELTA;
+		alarm[0] = 60 * 5;
 	}
 }else{
 	speed = 0;

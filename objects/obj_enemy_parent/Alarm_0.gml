@@ -12,4 +12,4 @@ if(_distance <= detection_range){
 	speed = 0;
 }
 
-alarm[0] = 12 * DELTA;
+alarm[0] = 12;

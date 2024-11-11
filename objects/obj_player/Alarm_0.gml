@@ -1,4 +1,4 @@
-//@description dash and parry
+///@description dash and parry
 hspeed = 0;
 vspeed = 0;
 parry = false;

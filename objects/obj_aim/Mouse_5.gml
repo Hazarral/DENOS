@@ -1,4 +1,4 @@
-/// @description PARRY
+/// @description Parry
 with(obj_player){
 	if(move_lock || !can_parry)
 		exit;
@@ -7,6 +7,6 @@ with(obj_player){
 	parry = true;
 	invulnerable = true;
 	image_blend = c_fuchsia;
-	alarm[0]= 6 * DELTA;
-	alarm[1] = 30 * DELTA; 
+	alarm[0]= 6;
+	alarm[1] = 30; 
 }
